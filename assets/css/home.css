@@ -1,0 +1,31 @@
+#user-friends{
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    margin-top: 14%;
+    text-align: center;
+    background-color: rgb(0, 132, 255);
+}
+#feed-posts{
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    margin: 50px -10px 55px 55px;
+}
+#posts-list-container{
+    display: inline-block;
+    width: 70%;
+    margin: 10px 0px 0px 10px;
+    background-color: rgb(139, 93, 182);
+    box-shadow: 10px 5px 5px rgb(179, 184, 245);
+}
+#posts-list-container-post{
+    width: 70%;
+background-color: rgb(143, 226, 198);
+}
+h3{
+    margin: 0% 0% 0% 30%;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,2 +1,70 @@
-body {
-    background-color: lightblue; }
+.sign{
+align-items: center;
+margin-left: 32%;
+height: 45%;
+width: 40%;
+background-color:rgb(184, 80, 48);
+text-align: center;
+}
+.mini-logo{
+   background-color: rgb(10, 10, 10);
+   width: 100;
+   display: inline-block;
+   color: aliceblue;
+}
+.mini-logo p a{
+    font-size: large;
+    text-shadow:whitesmoke;
+    font-style: italic;
+    color: azure;
+    margin-left: 3;
+    text-shadow: 2px 1px red; 
+ }
+ .auth-links{
+     background-color: azure;
+     font-style: italic;
+     width: 110;
+     display: inline-block;
+     margin-left: 82%;
+     margin-top: 5px;
+ }
+.sign_in{
+    align-items: center;
+    text-align: center;
+    background-color:beige;
+    height: 40%;
+    width: 40%;
+
+}
+.google{
+    background-color: aqua;
+    text-align: center;
+}
+body{
+     background-color: #abaebd;
+    
+}
+h1{
+    font-weight: 40;
+}
+a{
+    text-shadow: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.profile{
+    text-align: center;
+}
+p{
+
+    text-decoration: none;
+}
+#image img{
+    margin: -5% 0% 0% 37%;
+    max-width: 20%;
+    min-width: 20%;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: #070707;
+}

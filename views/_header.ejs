@@ -1,9 +1,10 @@
+<link rel="stylesheet" href="/css/user_profile.css">
 <header id="layout-header">
     <nav>
         <div class="mini-logo">
             <p>
                 <a href='/'>
-                    codeial
+                    Home
                 </a>
             </p>
         </div>
@@ -14,7 +15,7 @@
                 <li>
                     <a href="/users/profile/<%= user._id %>"><%= user.name %></a>
                 </li>
-                <li>
+                <li id="sign_out">
                     <a href="/users/sign-out">Sign Out</a>
                 </li>
                 <% }else{ %>

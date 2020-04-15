@@ -12,6 +12,12 @@ const MongoStore = require('connect-mongo')(session);
 const passportGoogle = require('./config/passport-google-oauth2-strategy');
 const flash = require('connect-flash');
 const customMware = require('./config/middleware');
+//set up the chat server to be used with socket.io
+const chatServer=require('http').Server(app);
+const chatSockets=require('./config/chat_sockets').chatSockets(chatServer);
+chatServer.listen(5000);
+console.log("serrver is listen on 5000");
+
 
 app.use(express.urlencoded());
 
