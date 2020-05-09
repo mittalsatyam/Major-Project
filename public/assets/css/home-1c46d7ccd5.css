@@ -12,23 +12,16 @@
   position: relative;
   margin: 50px -10px 55px 55px; }
 
-#yes {
-  color: red; }
-
-#yes1 {
-  color: greenyellow; }
-
 #posts-list-container {
   display: inline-block;
   width: 70%;
   margin: 10px 0px 0px 10px;
-  background-color: #522f70;
+  background-color: #8b5db6;
   box-shadow: 10px 5px 5px #b3b8f5; }
 
 #posts-list-container-post {
   width: 70%;
-  background-color: rgba(117, 14, 185, 0.39);
-  color: rgba(255, 174, 0, 0.877); }
+  background-color: #8fe2c6; }
 
 h3 {
   margin: 0% 0% 0% 30%; }
